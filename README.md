@@ -249,11 +249,11 @@ collabos-backend/
 
 | Method | Endpoint | Description | Auth |
 |---|---|---|---|
-| `POST` | `/api/auth/register` | Register new user | ❌ |
-| `POST` | `/api/auth/login` | Login & receive JWT | ❌ |
-| `GET` | `/api/auth/me` | Get current user profile | ✅ |
-| `GET` | `/api/auth/google` | Initiate Google OAuth flow | ❌ |
-| `GET` | `/api/auth/google/callback` | Google OAuth callback | ❌ |
+| `POST` | `/api/auth/register` | Register new user | 
+| `POST` | `/api/auth/login` | Login & receive JWT | 
+| `GET` | `/api/auth/me` | Get current user profile | 
+| `GET` | `/api/auth/google` | Initiate Google OAuth flow | 
+| `GET` | `/api/auth/google/callback` | Google OAuth callback | 
 
 **Register:**
 ```json
