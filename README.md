@@ -247,7 +247,7 @@ collabos-backend/
 
 ### 🔐 Authentication
 
-| Method | Endpoint | Description | Auth |
+| Method | Endpoint | Description | 
 |---|---|---|---|
 | `POST` | `/api/auth/register` | Register new user | 
 | `POST` | `/api/auth/login` | Login & receive JWT | 
